@@ -1,0 +1,126 @@
+.material-symbols-rounded {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 20;
+}
+
+.top_bar {
+  background-color: #474747;
+  padding: 5px;
+  color: #ffffff;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 15px;
+}
+.material-symbols-rounded {
+  padding: 5px;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+.top_bar ul {
+  display: inline-block;
+  width: calc(100% - 350px);
+  text-align: right;
+  padding-right: 15px;
+}
+.top_bar ul li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  padding: 5px;
+  padding-bottom: 2px;
+  padding-top: 8px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #f9f9f71f;
+  border-radius: 100px;
+}
+.nav {
+  background-color: #f9f9f7;
+  padding: 5px;
+  color: #000000;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 25px;
+  position: relative;
+}
+.nav a {
+  padding: 5px;
+  margin-left: 15px;
+}
+.nav nav {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  left: calc(100% - 60%);
+  vertical-align: middle;
+}
+.nav nav a {
+  color: #2c2f24;
+  text-decoration: none;
+  font-size: 16px;
+  vertical-align: middle;
+  margin: 10px;
+  padding: 10px;
+}
+.nav nav a:hover {
+  background-color: #dbdfd0;
+  border-radius: 35px;
+}
+.nav button {
+  display: inline-block;
+  vertical-align: middle;
+  color: #474747;
+  background-color: #ffffff00;
+  border-color: #000000;
+  border-radius: 47px;
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  position: absolute;
+  right: calc(0% + 116px);
+}
+
+.hero {
+  background-image: url(../img/bg.svg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  text-align: center;
+}
+.hero-text h1 {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 75px;
+  padding: 30px;
+  padding-top: 200px;
+}
+.hero-text h5 {
+  text-align: center;
+  vertical-align: middle;
+  padding: 30px;
+}
+.hero-button {
+  text-align: center;
+}
+.hero-button button {
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 200px;
+  color: #000000;
+  text-decoration: none;
+  background-color: #ffffff00;
+  border-radius: 50px;
+  border-width: 2px;
+  border-color: #343434;
+  border-style: solid;
+}
+.hero-button button:hover {
+  background-color: #ad343e;
+  color: #ffffff;
+  border-style: none;
+}
